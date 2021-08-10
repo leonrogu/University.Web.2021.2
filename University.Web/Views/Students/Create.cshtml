@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+<form action="/Students/Create" method="post">
+
+    <label>ID:</label>
+    <input type="text" id="ID" name="ID" />
+
+    <label>Last Name:</label>
+    <input type="text" id="LastName" name="LastName" />
+
+    <label>First MidName:</label>
+    <input type="text" id="FirstMidName" name="FirstMidName" />
+
+    <label>Enrollment Date:</label>
+    <input type="date" id="EnrollmentDate" name="EnrollmentDate" />
+
+    <input type="submit" value="Create" />
+
+</form>
